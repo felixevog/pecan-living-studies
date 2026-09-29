@@ -1,0 +1,95 @@
+name: Submit a PECAN study
+description: Suggest a published study or publicly available preprint for inclusion in the PECAN Living Study Overview.
+title: "[Study submission] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us keep the PECAN Living Study Overview up to date.
+        
+        Please provide as much information as possible below. We currently include published studies and publicly available preprints that use PECAN or a closely related perceived causal network approach.
+
+  - type: input
+    id: reference
+    attributes:
+      label: Full reference
+      description: Please provide the full bibliographic reference, including authors, year, and title.
+      placeholder: "Author, A., Author, B., & Author, C. (2026). Title of the study."
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: DOI or public URL
+      description: Link to the published article or publicly available preprint.
+      placeholder: "https://doi.org/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Publication status
+      options:
+        - Published
+        - Publicly available preprint
+        - Other publicly available research output
+    validations:
+      required: true
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: Briefly describe the main objective of the study.
+      placeholder: "What was the study designed to investigate?"
+
+  - type: textarea
+    id: population
+    attributes:
+      label: Population / sample
+      description: Include the target population, sample size, age range, and relevant clinical characteristics where applicable.
+      placeholder: "N = ...; age ...; clinical/community sample ..."
+
+  - type: textarea
+    id: administration
+    attributes:
+      label: Administration
+      description: How was PECAN administered (e.g., unguided online assessment, structured interview, collaborative therapist–patient procedure)?
+      placeholder: "Describe the assessment format."
+
+  - type: textarea
+    id: nodes
+    attributes:
+      label: Node selection
+      description: How were problems, symptoms, or processes selected and personalized?
+      placeholder: "Predefined list, free-text additions, number of selected nodes, etc."
+
+  - type: textarea
+    id: edges
+    attributes:
+      label: Edge assessment
+      description: How were perceived causal relations assessed?
+      placeholder: "Question wording, response scale, directional ratings, etc."
+
+  - type: textarea
+    id: metrics
+    attributes:
+      label: Main analyses / metrics
+      description: Which network measures, reliability indices, comparisons, or other analyses were used?
+      placeholder: "Out-degree centrality, edge reliability, face validity, etc."
+
+  - type: textarea
+    id: findings
+    attributes:
+      label: Main findings
+      description: Please summarize the main findings relevant to PECAN in a few sentences.
+      placeholder: "Brief summary of the principal results."
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Optional context, corrections, or information that may help us evaluate the submission.
