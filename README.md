@@ -56,7 +56,7 @@ This is a living resource. The overview will be updated when new relevant studie
 
 ## Missing a study?
 
-If you know of a published study or publicly available preprint using PECAN that is missing from this overview, please [open an issue](https://github.com/felixevog/pecan-living-studies/issues) or contact the authors of the PECAN Guidelines.
+If you know of a published study or publicly available preprint using PECAN that is missing from this overview, please **[submit a PECAN study](https://github.com/felixevog/pecan-living-studies/issues/new?template=submit-pecan-study.yml)** using our short submission form. You can also contact the authors of the PECAN Guidelines.
 
 ## Previous OSF location
 
