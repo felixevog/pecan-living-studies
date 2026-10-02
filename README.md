@@ -43,11 +43,6 @@ Practical tutorial for importing, processing, analysing, summarizing, and visual
 **Gauld, Blanken, Klintwall, & Micoulaud-Franchi (2025). _Introducing Perceived Causal Networks in Sleep Medicine._ Journal of Sleep Research, 34(6), e70035.**  
 Conceptual application of PECAN to sleep medicine, outlining how perceived causal networks may complement conventional diagnostic classification and support personalized assessment in sleep disorders. [https://doi.org/10.1111/jsr.70035](https://doi.org/10.1111/jsr.70035)
 
-## Related methodological developments
-
-**Vogel et al. (2026). _Assessing Person-Specific Symptom Networks From Brief Narratives: Development and Initial Evaluation of the Narrative-to-Network (N2N) Approach._**  
-N2N derives directed person-specific symptom networks from brief prompted spoken narratives. PECAN serves as a structured comparison method in the initial evaluation; N2N is therefore listed here as a closely related methodological development rather than as a PECAN study.
-
 ## Scope
 
 The overview includes publicly available empirical studies using perceived causal network methods at the individual or group level, as well as selected methodological and conceptual extensions directly related to PECAN. Depending on the study, PECAN may be used for assessment, case conceptualization, comparison with other network approaches, prediction, treatment planning, methodological development, or intervention research.
